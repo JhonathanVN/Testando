@@ -1,0 +1,44 @@
+nav#menu ul#men{
+    margin-top: -20px;
+}
+img#img-muda{
+    width: 160px;
+    margin-top: -90px;
+    margin-right: 15px;
+}
+p#veja{
+    text-indent: 30px;
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 18px;
+}
+ul{
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+/*
+li.fotoss{
+    margin-left: 0;
+}
+*/
+li#foto02, li#foto04, li#foto06{
+    margin-right: 0;
+}
+li img{
+    margin: 0;
+    width: 100%;
+    max-height: 200px;
+}
+ul li{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    background-color: white;
+}
